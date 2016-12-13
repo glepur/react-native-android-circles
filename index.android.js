@@ -1,8 +1,10 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
 
-var { NativeModules, requireNativeComponent, PropTypes, View } = React;
+var { PropTypes } = React;
+var { NativeModules, requireNativeComponent, PropTypes, View } = ReactNative;
 
 class CirclesAndroid extends React.Component {
   spin() {
